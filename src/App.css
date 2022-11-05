@@ -1,0 +1,95 @@
+.container {
+	width: 400px;
+	margin: auto;
+}
+.title {
+	text-align: center;
+	color: #00551c;
+	font-size: 35px;
+}
+.calculator {
+	background: lightGrey;
+	margin-top: 50px;
+	border: 5px solid #00551c;
+	border-radius: 0px;
+	margin: 20px;
+}
+
+.displayOutput {
+	background-color: darkGrey;
+	height: 50px;
+	font-size: 50px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.buttons {
+	max-width: 400px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+button {
+	flex: 1 25%;
+	padding: 15px;
+	font-size: 25px;
+	color: black;
+}
+
+.remove-btn {
+	margin-left: 13px;
+	margin-right: 60px;
+	padding: 5px;
+	font-size: 15px;
+	background-color: red;
+	color: white;
+	border: 2px solid black;
+	cursor: pointer;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.food-item {
+	margin: 10px;
+}
+
+.info {
+	color: #00551c;
+	font-weight: 700;
+	display: inline;
+}
+
+.drink-button {
+	padding: 8px;
+	font-size: 20px;
+	border: 2px solid #00551c;
+	border-radius: 25px;
+	background-color: #fffee3;
+	margin: 10px;
+}
+
+.toggleButton {
+	background-color: #00551c;
+	border-radius: 25px;
+	color: white;
+	margin: 25px auto;
+}
+
+.border {
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+@media screen and (min-width: 1025px) {
+	button {
+		flex: 0 0 33.333333%;
+	}
+
+	button:last-child {
+		flex: 1;
+	}
+}
